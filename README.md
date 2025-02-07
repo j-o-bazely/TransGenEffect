@@ -28,18 +28,16 @@ TG.3A_prepMethDiffObj.r
 TG.3B_GeneticRelatednessMatrix.r
 - This script creates a genetic relatedness matrix for each of the three intersections being compared with PQLseq
 
-TG.3C_PrepPQLseqInputData
+TG.3C_PrepPQLseqInputData.r
 - Prepares the methylKit uniteCov object for PQLseq's requirements                                 
 
 TG.3D_runPQLseq.r
 - Script for submission via Apocrita HPC. Runs PQLseq per chromosome
 
-
-TG.3E_runPQLseq_script.r
+TG.3E_runPQLseq_script.sh
 - Shell script for running TG.3D_runPQLseq.r
 
-
-TG.3F
+TG.3F_mergeChrms_runSLMIM.r
 - This script runs the SLIM multiple testing algorithm, merges chromosomes into one object and combines with diffMeth object for downstream analysis
 
 -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
