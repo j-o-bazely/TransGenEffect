@@ -12,7 +12,7 @@
 -  All custom functions can be found in this script, grouped by the script they are used in. 
 -  The start of every other script should source() to the location of TG.0_functions.r at the top to ensure functions are available for use.
 
-**TG .1_objectPreparation.r**
+**TG.1_objectPreparation.r**
 - This script prepares 75% coverage objects for each key analysis group; mothers, hatchlings, deep hatchlings and shallow hatchlings.
 - It also prepares these objects split into the three time points used within the split-clutch experiment, representing three different temperatures across the nesting season.
 - Next, it creates the necessary GRanges objects to interrogate each intersection at each of the three time points.
