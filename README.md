@@ -4,7 +4,9 @@
 **Description**
 - This is the code for my project looking at transgenerational effects between a mother and her hatchlings, how this relationship changes depending on incubation depth of hatchlings, and how this relationship changes across a warming nesting season. 
 
-**Script Contents**
+
+
+**Script Order and Contents**
 
 TG.0_functions.r
 -  To minimise code duplication, this pipeline takes a function-based approach where object preparation is performed by custom functions which work across timepoints and intersections.
@@ -18,6 +20,7 @@ TG .1_objectPreparation.r
 
 TG.2_GlobalMethAnalysis.r
 - This script analyses shared CpG between the three key treatment groups on the global methylation level
+
 
 
 -  -  -  -  -  -  -  -  -  -   TG.3_PQLseqAnalysis  -  -  -  -  -  -  -  -  -  -  -
