@@ -6,8 +6,7 @@
 
 
 
-**Script Order and Contents**
-
+# Script Order and Contents #
 TG.0_functions.r
 -  To minimise code duplication, this pipeline takes a function-based approach where object preparation is performed by custom functions which work across timepoints and intersections.
 -  All custom functions can be found in this script, grouped by the script they are used in. 
