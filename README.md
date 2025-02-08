@@ -21,9 +21,11 @@
 
 
 
--  -  -  -  -  -  -  -  -  -   TG.3_PQLseqAnalysis  -  -  -  -  -  -  -  -  -  - 
-  - This section is split into multiple scripts
 
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -   
+**TG.3_PQLseqAnalysis** 
+**(This section is split into multiple scripts)**
 
 **TG.3A_prepMethDiffObj.r**
 - This script generates diffmeth objects between each intersection, within each timepoint
